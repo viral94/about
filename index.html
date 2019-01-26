@@ -11,63 +11,19 @@
     margin-left: 110px; /* Отступ от левого края */
    }
    #skills {
-      margin-top: 120px;
+      margin-top: 80px;
    }
-  </style>
-
-  <script type="text/javascript">
-  $(document).ready(function() {
-
-   $('.image-popup-vertical-fit').magnificPopup({
-      type: 'image',
-      closeOnContentClick: true,
-      mainClass: 'mfp-img-mobile',
-      image: {
-         verticalFit: true
-      }
-      
-   });
-
-   $('.image-popup-fit-width').magnificPopup({
-      type: 'image',
-      closeOnContentClick: true,
-      image: {
-         verticalFit: false
-      }
-   });
-
-   $('.image-popup-no-margins').magnificPopup({
-      type: 'image',
-      closeOnContentClick: true,
-      closeBtnInside: false,
-      fixedContentPos: true,
-      mainClass: 'mfp-no-margins mfp-with-zoom',
-      image: {
-         verticalFit: true
-      },
-      zoom: {
-         enabled: true,
-         duration: 300
-      }
-   });
-
-});
-  </script>
 </head>
 
 <body>
-<div id="pic"><a class="image-popup-vertical-fit" href="avatar.png">
-   <img src="avatar.png" width="107" height="150">
-</a></div>
+<div id="pic">
+   <img src="avatar.png"/>
+</div>
 <div id="text"><pre>
    Давыдов Владимир 24 года
    Работаю в диспетчерском центре МТС Спутниковое телевидение
    Прошёл все уроки по JS из раздела основы на сайте <a href="http://learn.javascript.ru/">learn.javascript.ru</a> <img src="icon.png" width="17" height="25"/>
    Спокойный, трудолюбивый, обучаемый.
-
-   Честно напишу, код с модальным окном не мой, но его в принципе добавить можно по желанию. 
-   Сейчас 2 часа ночи и я заканчиваю работать с визиткой, 
-   мне вставать в 6:30 утра чтобы идти на работу, но если спросите я смогу объяснить как он работает.
 </pre></div>
 <div></div>
 <div id="skills"><table>
